@@ -15,24 +15,32 @@
     padding: 20px 10px 10px 20px;
 }
 
+#game-thumbnail {
+    float: left;
+}
 /* media queries */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 640px) {
+    header {
+      position: static;
+    }
     nav {
         object-fit: cover;
     }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
+   /* for tablets */
+   @media only screen and (max-width: 768px) {
+    nav {
+        object-fit: cover;
+    }
+    [class*="col-"] {
+    width: 100%;
+   }
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
+   
+   /*for computers */
+   @media only screen and (max-width: 980px) {
+     [class*="col-"] {
+       width: 100%;
+     }
+   }
