@@ -12,96 +12,134 @@
 </head>
 
 <body>
-    <!-- navigation bar, connected to About (home page), Portfolio(project links), Contact form -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand">Explore</a>
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+      <!-- navigation bar, connected to About (home page), Portfolio(project links), Contact form -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form> -->
+            </div>
+        </nav>
+
+
+    <!-- container with app cards -->
+    <div class="card-container text-center">
+
+        <!-- Psychic Game -->
+        <div class="card" id="game-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Psychic Game</h5>
+                <img src="assets/images/psychic.jpg" alt="psychGame" class="img-thumbnail">
+                <a href="https://mrv5122.github.io/Psychic-Game/" class="btn btn-primary">View</a>
+            </div>
         </div>
-    </nav>
 
-
- <!-- container with app cards -->
-<div class="card-container text-center">
-
-    <!-- Psychic Game -->
-    <div class="card" id="game-thumbnail">
-        <div class="card-body">
-            <h5 class="card-title">Psychic Game</h5>
-            <img src="assets/images/psychic.jpg" alt="psychGame" class="img-thumbnail">
-            <a href="https://mrv5122.github.io/Psychic-Game/" class="btn btn-primary">View</a>
+        <!-- Gem Collector Game -->
+        <div class="card" id="game-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Gem Collector</h5>
+                <img src="assets/images/gemcollector.jpg" alt="gemGame" class="img-thumbnail">
+                <a href="https://mrv5122.github.io/unit-4-game/" class="btn btn-primary">View</a>
+            </div>
         </div>
-    </div>
 
-    <!-- Gem Collector Game -->
-    <div class="card" id="game-thumbnail">
-        <div class="card-body">
-            <h5 class="card-title">Gem Collector</h5>
-            <img src="assets/images/gemcollector.jpg" alt="gemGame" class="img-thumbnail">
-            <a href="https://mrv5122.github.io/unit-4-game/" class="btn btn-primary">View</a>
+        <!-- Trivia Game -->
+        <div class="card" id="game-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Trivia Game</h5>
+                <img src="assets/images/trivia.jpg" alt="triviaGame" class="img-thumbnail">
+                <a href="https://mrv5122.github.io/TriviaGame/" class="btn btn-primary">View</a>
+            </div>
         </div>
-    </div>
 
-    <!-- Trivia Game -->
-    <div class="card" id="game-thumbnail">
-        <div class="card-body">
-            <h5 class="card-title">Trivia Game</h5>
-            <img src="assets/images/trivia.jpg" alt="triviaGame" class="img-thumbnail">
-            <a href="https://mrv5122.github.io/TriviaGame/" class="btn btn-primary">View</a>
+        <!-- Group Project 1 -->
+        <div class="card" id="game-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Maze-Quest</h5>
+                <img src="assets/images/maze.jpg" alt="projOne" class="img-thumbnail">
+                <a href="https://peiyuwu9.github.io/group_project_1_maze_quest/" class="btn btn-primary">View</a>
+            </div>
         </div>
-    </div>
 
-    <!-- Group Project 1 -->
-    <div class="card" id="game-thumbnail">
-        <div class="card-body">
-            <h5 class="card-title">Maze-Quest</h5>
-            <img src="assets/images/maze.jpg" alt="projOne" class="img-thumbnail">
-            <a href="https://peiyuwu9.github.io/group_project_1_maze_quest/" class="btn btn-primary">View</a>
+
+        <!-- GIFtastic API HW -->
+        <div class="card" id="game-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">GIFtastic API</h5>
+                <img src="http://giphygifs.s3.amazonaws.com/media/1ET7hRlCcZLuE/giphy.gif" alt="GIFhw"
+                    class="img-thumbnail">
+                <a href="https://mrv5122.github.io/GIFtastic-api/" class="btn btn-primary">View</a>
+            </div>
         </div>
-    </div>
 
-
-<!-- GIFtastic API HW -->
-    <div class="card" id="game-thumbnail">
-        <div class="card-body">
-            <h5 class="card-title">GIFtastic API</h5>
-            <img src="http://giphygifs.s3.amazonaws.com/media/1ET7hRlCcZLuE/giphy.gif" alt="GIFhw" class="img-thumbnail">
-            <a href="https://mrv5122.github.io/GIFtastic-api/" class="btn btn-primary">View</a>
-        </div>
-    </div>
-
-<!-- (B)amazon App -->
-    <div class="card" id="game-thumbnail">
+        <!-- (B)amazon App -->
+        <div class="card" id="game-thumbnail">
             <div class="card-body">
                 <h5 class="card-title">(B)amazon App</h5>
-                <img src="https://images-na.ssl-images-amazon.com/images/G/01/gc/reveal/placeholder._CB528728347_.png" alt="bamazon" class="img-thumbnail">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/gc/reveal/placeholder._CB528728347_.png"
+                    alt="bamazon" class="img-thumbnail">
                 <a href="https://github.com/mrv5122/bamazon-app.git" class="btn btn-primary">View Repo</a>
             </div>
         </div>
 
-</div> 
-<!-- close container -->
+        <!-- LIRI Node App -->
+        <div class="card" id="game-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">LIRI Node App</h5>
+                <img src="https://res.cloudinary.com/mrv5122/image/upload/v1574020675/speech-icon-png-15_mbdrx6.png"
+                    alt="liri" class="img-thumbnail">
+                <a href="https://github.com/mrv5122/liri-node-app.git" class="btn btn-primary">View Repo</a>
+            </div>
+        </div>
+
+        <!-- Note Taker App -->
+        <div class="card" id="game-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Note Taker</h5>
+                <img src="https://res.cloudinary.com/mrv5122/image/upload/v1574020941/25-Sheet-Stik-Withit_C2_AE-Adhesive-Notepad-4x6-SWI4X6-25_rd6ps0.jpg"
+                    alt="note-taker" class="img-thumbnail">
+                <a href="" class="btn btn-primary">View</a>
+            </div>
+        </div>
+
+        <!-- Burger Logger -->
+        <div class="card" id="game-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Burger Logger</h5>
+                <img src="https://res.cloudinary.com/mrv5122/image/upload/v1574021409/tenor_gloyil.gif"
+                    alt="burger-app" class="img-thumbnail">
+                <a href="https://github.com/mrv5122/burger.git" class="btn btn-primary">View</a>
+            </div>
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="card" id="game-thumbnail">
+                <div class="card-body">
+                    <h5 class="card-title">CLI Combat</h5>
+                    <img src="https://res.cloudinary.com/mrv5122/image/upload/v1573500685/knight500px_1_bjx7uj.png"
+                        alt="projTwo" class="img-thumbnail">
+                    <a href="https://tranquil-plains-28523.herokuapp.com/" class="btn btn-primary">View</a>
+                </div>
+            </div>
+    </div>
+    <!-- close container -->
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

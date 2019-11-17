@@ -1,27 +1,39 @@
+html {
+    background: maroon;
+}
+
 /* nav bar */
 nav:hover {
-    color: magenta;
+    color: maroon;
 }
+
+.nav-item:hover {
+    color: maroon;
+}
+
+.nav-item {
+    color: maroon;
+}
+
 /* card container */
 .card-container {
     width: 90%;
-    margin-left: 8%;
+    margin-left: 5%;
     margin-right: 5%;
     margin-top: 3%;
 }
 /* application cards */
 .card {
     background: lightseagreen;
-    margin: 10px;
-    width: 200px;
-    height: 145px;
+    margin: 2%;
+    size: 10%;
     float: left;
 }
 
 /* content div for cards */
 .card-body {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 h5 {
