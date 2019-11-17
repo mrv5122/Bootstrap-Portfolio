@@ -17,33 +17,45 @@ nav:hover {
   color: maroon;
 }
 
-
-.card {
-  background: moccasin;
-  text-align: center;
-  color: black;
-  text-shadow: white 1px 1px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  float: inline-end;
+.card .card-front img {
+  width: 300px;
 }
 
-.container-fluid {
-  width: 95%;
-  margin-left: 2.5%;
-  margin-right:2.5%;
-  margin-top: 2%;
+.card {
+  width: 250px;
+  height: 500px;
+  background: maroon;
+  color: moccasin;
+  text-shadow: black 1px 1px;
+  border: hidden;
+}
+.card-front {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-front, .words {
   float: left;
+  margin-top: 10%;
+}
+
+.words{
+  color: moccasin;
+  text-shadow: black 1px 1px;
+  font-size: 20px;
 }
 
 h5 {
-  margin-top: 10px;;
+  margin-top: 10px;
 }
+
 
 
 /* contact form */
 #contactForm {
   color: whitesmoke;
   text-shadow: black 2px 2px;
+  margin-top: 10%;
 }
 
 /* media queries */
