@@ -1,0 +1,135 @@
+/* nav bar */
+nav:hover {
+    color: magenta;
+}
+/* card container */
+.card-container {
+    width: 90%;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+/* application cards */
+.card {
+    background: lightseagreen;
+    margin: 10px;
+    width: 200px;
+    height: 145px;
+    float: left;
+}
+
+/* content div for cards */
+.card-body {
+    text-align: center;
+    padding: 5px;
+}
+
+h5 {
+    font-size: 20px;
+    color: white;
+}
+.img-thumbnail {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+/* media queries */
+/* mobile */
+@media only screen and (max-width: 640px) {
+    
+    header {
+      position: static;
+    }
+
+    nav {
+        object-fit: cover;
+    }
+/* application cards */
+.card {
+    float: left;
+    background: lightseagreen;
+    margin: 5px;
+    width: 100px;
+    height: 80px;
+    
+}
+
+/* content div for cards */
+.card-body {
+    text-align: center;
+    padding: 5px;
+}
+
+h5 {
+    font-size: 12px;
+}
+.img-thumbnail {
+    height: 40px;
+    width: 40px;
+}
+
+
+}
+   /* for tablets */
+   @media only screen and (max-width: 768px) {
+    nav {
+        object-fit: cover;
+    }
+
+    #game-thumbnail {
+        float: left;
+    }
+
+    .card {
+        float: left;
+        background: lightseagreen;
+        margin: 5px;
+        width: 150px;
+        height: 120px;
+        
+    }
+    
+    /* content div for cards */
+    .card-body {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    h5 {
+        font-size: 15px;
+    }
+    .img-thumbnail {
+        height: 60px;
+        width: 60px;
+    }
+}
+   
+   /*for computers */
+   @media only screen and (max-width: 980px) {
+    .card {
+        float: left;
+        background: lightseagreen;
+        margin: 5px;
+        width: 150px;
+        height: 120px;
+        
+    }
+    
+    /* content div for cards */
+    .card-body {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    h5 {
+        font-size: 15px;
+    }
+    .img-thumbnail {
+        height: 60px;
+        width: 60px;
+    }
+
+
+   }

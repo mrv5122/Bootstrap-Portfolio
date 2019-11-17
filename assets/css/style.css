@@ -1,13 +1,14 @@
 /* index elements */
-
 .img-fluid {
     max-width: 25%;
     max-height: 25%;
     padding: 20px 2px 20px 20px;
 }
 /* portfolio elements */
-#game-thumbnail {
-    
+.card {
+    float: left;
+    background: lightseagreen;
+    text-align: center;
 }
 
 /* contact elements */

@@ -8,7 +8,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/portfolioStyle.css">
 </head>
 
 <body>
@@ -42,44 +42,66 @@
     </nav>
 
 
-    <!-- images with links to project websites -->
+ <!-- container with app cards -->
+<div class="card-container text-center">
 
     <!-- Psychic Game -->
-    <div class="card" style="width: 18rem;" id="game-thumbnail">
+    <div class="card" id="game-thumbnail">
         <div class="card-body">
             <h5 class="card-title">Psychic Game</h5>
             <img src="assets/images/psychic.jpg" alt="psychGame" class="img-thumbnail">
-            <a href="https://mrv5122.github.io/Psychic-Game/" class="btn btn-primary">Play Now!</a>
+            <a href="https://mrv5122.github.io/Psychic-Game/" class="btn btn-primary">View</a>
         </div>
     </div>
 
     <!-- Gem Collector Game -->
-    <div class="card" style="width: 18rem;" id="game-thumbnail">
+    <div class="card" id="game-thumbnail">
         <div class="card-body">
-            <h5 class="card-title">Gem Collector Game</h5>
+            <h5 class="card-title">Gem Collector</h5>
             <img src="assets/images/gemcollector.jpg" alt="gemGame" class="img-thumbnail">
-            <a href="https://mrv5122.github.io/unit-4-game/" class="btn btn-primary">Play Now!</a>
+            <a href="https://mrv5122.github.io/unit-4-game/" class="btn btn-primary">View</a>
         </div>
     </div>
-    
-<!-- Trivia Game -->
-    <div class="card" style="width: 18rem;" id="game-thumbnail">
+
+    <!-- Trivia Game -->
+    <div class="card" id="game-thumbnail">
         <div class="card-body">
             <h5 class="card-title">Trivia Game</h5>
             <img src="assets/images/trivia.jpg" alt="triviaGame" class="img-thumbnail">
-            <a href="https://mrv5122.github.io/TriviaGame/" class="btn btn-primary">Play Now!</a>
+            <a href="https://mrv5122.github.io/TriviaGame/" class="btn btn-primary">View</a>
         </div>
     </div>
 
     <!-- Group Project 1 -->
-    <div class="card" style="width: 18rem;" id="game-thumbnail">
+    <div class="card" id="game-thumbnail">
         <div class="card-body">
             <h5 class="card-title">Maze-Quest</h5>
-            <img src="assets/images/maze.jpg" alt="triviaGame" class="img-thumbnail">
-            <a href="https://peiyuwu9.github.io/group_project_1_maze_quest/" class="btn btn-primary">Play Now!</a>
+            <img src="assets/images/maze.jpg" alt="projOne" class="img-thumbnail">
+            <a href="https://peiyuwu9.github.io/group_project_1_maze_quest/" class="btn btn-primary">View</a>
         </div>
     </div>
 
+
+<!-- GIFtastic API HW -->
+    <div class="card" id="game-thumbnail">
+        <div class="card-body">
+            <h5 class="card-title">GIFtastic API</h5>
+            <img src="http://giphygifs.s3.amazonaws.com/media/1ET7hRlCcZLuE/giphy.gif" alt="GIFhw" class="img-thumbnail">
+            <a href="https://mrv5122.github.io/GIFtastic-api/" class="btn btn-primary">View</a>
+        </div>
+    </div>
+
+<!-- (B)amazon App -->
+    <div class="card" id="game-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">(B)amazon App</h5>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/gc/reveal/placeholder._CB528728347_.png" alt="bamazon" class="img-thumbnail">
+                <a href="https://github.com/mrv5122/bamazon-app.git" class="btn btn-primary">View Repo</a>
+            </div>
+        </div>
+
+</div> 
+<!-- close container -->
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
