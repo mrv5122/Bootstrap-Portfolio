@@ -28,6 +28,7 @@ nav:hover {
     margin: 2%;
     size: 10%;
     float: left;
+    text-shadow: black 1px 1px;
 }
 
 /* content div for cards */

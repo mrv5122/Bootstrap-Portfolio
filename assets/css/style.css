@@ -17,18 +17,14 @@ nav:hover {
   color: maroon;
 }
 
-/* index elements */
-.img-fluid {
-  max-width: 25%;
-  max-height: 25%;
-  padding: 20px 2px 20px 20px;
-}
-/* portfolio elements */
+
 .card {
   background: moccasin;
   text-align: center;
   color: black;
+  text-shadow: white 1px 1px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: inline-end;
 }
 
 .container-fluid {
@@ -37,6 +33,17 @@ nav:hover {
   margin-right:2.5%;
   margin-top: 2%;
   float: left;
+}
+
+h5 {
+  margin-top: 10px;;
+}
+
+
+/* contact form */
+#contactForm {
+  color: whitesmoke;
+  text-shadow: black 2px 2px;
 }
 
 /* media queries */
